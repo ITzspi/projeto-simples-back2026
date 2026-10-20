@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Mostrar tag detectada
         run: echo "Iniciando deploy automático para a tag ${GITHUB_REF_NAME}"
